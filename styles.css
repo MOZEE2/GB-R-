@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.elementor-section {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.elementor-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.elementor-column {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.elementor-widget-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elementor-widget-container {
+    text-align: center;
+}
+
+.elementor-heading-title {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+.elementor-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.elementor-button:hover {
+    background-color: #005bb5;
+}
+
+.elementor-image-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.elementor-image-box-content {
+    padding: 10px 0;
+}
+
+.elementor-image-box-title {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.elementor-image-box-description {
+    font-size: 1em;
+    color: #666;
+}
